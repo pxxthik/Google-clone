@@ -1,12 +1,8 @@
-"use client"
+"use client";
 
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 export default function CountryLookUp() {
-    const [country, setCountry] = useState("India")
-  return (
-    <div>
-      {country}
-    </div>
-  )
+  const [country, setCountry] = useState("India");
+  return <div>{country}</div>;
 }
